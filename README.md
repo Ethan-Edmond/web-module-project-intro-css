@@ -58,7 +58,7 @@ Once your repository is set up, practice what you learned today to style the sit
 The following goals are designed to stretch your knowledge and may require additional research beyond what was learned in class today.
 
 - [x] Add CSS animations (hover, mouseover, etc.)
-Should still add more!
+Should still add more! it's just some hovers right now.
 - [ ] Design and execute your own pages for `Plan your Visit`, `Learn About the Park`, or `Get Involved`
 - [x] Use [favicon.io](https://favicon.io/favicon-converter/) to convert the campfire and RV images to real favicons and use them in your project
 I wanted to use it like fontAwesome, but I don't really know how to do that.
