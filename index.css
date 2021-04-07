@@ -55,9 +55,6 @@ h1 {
     font-family: "Chelsea Market", cursive;
     font-size: 5rem;
 }
-section {
-    padding: 4% 0;
-}
 
 /* Header Styles */
 nav {
@@ -65,24 +62,60 @@ nav {
 }
 nav a {
     display: inline-block;
-    padding: 1% 0;
-    border-radius: 10px;
+    padding: 0.6% 0;
+    border-radius: 15px;
     width: 15%;
     text-align: center;
     text-decoration: none;
+    color: white;
+    line-height: 1.2;
 }
 /* Debuggin colors, remember that for later */
 .orange {
     background-color: orange;
-    margin-left: 10%;
+    margin-left: 12%;
 }
 .blue {
     background-color: blue;
-    margin: 0 16.463%;
+    margin: 0 14.321%;
 }
 .yellow {
     background-color: yellow;
-    margin-right: 10%;
+    margin-right: 12%;
 }
 
 /* Top Styles */
+
+.top {
+    height: 35vh;
+    overflow: auto;
+    padding-top: 20px;
+    text-align: center;
+}
+.top .image-container {
+    width: 30%;
+    display: inline-block;
+    padding: 0px;
+    text-align: center;
+}
+.top img {
+    width: 80%;
+    border-radius: 50%;
+}
+.top .text-container {
+    width: 70%;
+    display: inline-block;
+    vertical-align: top;
+    padding: 10px;
+    text-align: center;
+}
+
+.top .text-container h2 {
+    margin: 10px 0 0;
+}
+.top .text-container p {
+    margin: 20px 0 0;
+    padding: 0 20%;
+    line-height: 1.2;
+}
+
