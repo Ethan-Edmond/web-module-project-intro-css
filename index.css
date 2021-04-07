@@ -38,7 +38,7 @@ blockquote, q {
 * {
     box-sizing: border-box;
     max-width: 100%;
-    border: 1px solid grey;
+    /* border: 1px solid grey; */
 }
 
 
@@ -70,27 +70,24 @@ nav a {
     color: white;
     line-height: 1.2;
 }
-/* Debuggin colors, remember that for later */
 .orange {
-    background-color: orange;
+    background-color: #ff764e;
     margin-left: 12%;
 }
 .blue {
-    background-color: blue;
-    margin: 0 14.321%;
+    background-color: #5ed3eb;
+    margin: 0 13%;
 }
 .yellow {
-    background-color: yellow;
+    background-color: #ffcd69;
     margin-right: 12%;
 }
 
 /* Top Styles */
 
 .top {
-    height: 35vh;
-    overflow: auto;
-    padding-top: 20px;
     text-align: center;
+    padding: 20px 0;
 }
 .top .image-container {
     width: 30%;
@@ -119,3 +116,52 @@ nav a {
     line-height: 1.2;
 }
 
+/* Mid Styles */
+
+.mid {
+    background: #ddb9a3;
+    margin: 10px;
+    padding: 10px 15px;
+    color: white;
+    text-align: center;
+}
+
+.mid p:last-child {
+    margin-top: 20px;
+}
+
+
+/* Bottom Styles */
+
+.bottom a {
+    font-weight: bold;
+}
+
+.bottom p {
+    font-size: 1.2rem;
+}
+
+.bottom img {
+    width: 40%;
+    margin: 0 auto;
+    display: block;
+}
+
+.bottom div {
+    width: 30%;
+    text-align: center;
+    margin: 30px auto;
+}
+/* Footer Styles */
+
+footer {
+    background: #f9e7dc;
+}
+
+footer div {
+    background: url("assets/footer_img.jpg");
+    background-position: top;
+    background-size: cover;
+    display: block;
+    height: 200px;
+}
